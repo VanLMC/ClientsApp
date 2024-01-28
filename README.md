@@ -41,7 +41,7 @@ Bem-vindo ao projeto ClientsApp! Este é um aplicativo web que oferece três fun
 2.  Crie o container do PostgreSQL com o seguinte comando: `docker run --name postgres -e POSTGRES_PASSWORD=12345 -d -p 5432:5432 postgres`
 3. Entre na pasta do backend.
 4. Execute `npm install` para instalar as dependências.
-5. Rode o servidor backend com o comando: `npm run start`
+5. Rode o servidor backend com o comando: `npm run start` (antes certifique-se de que o container do banco de dados está ativo)
 
 
 O DDL para configurar o banco de dados será executado automaticamente se a tabela ainda não existir.
